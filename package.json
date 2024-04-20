@@ -23,5 +23,8 @@
     "gulp-terser": "^2.1.0",
     "postcss": "^8.4.38",
     "sass": "^1.75.0"
+  },
+  "devDependencies": {
+    "gulp-dart-sass": "^1.1.0"
   }
 }
