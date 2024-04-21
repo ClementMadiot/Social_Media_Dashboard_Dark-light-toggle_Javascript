@@ -1,16 +1,33 @@
 @use '../util' as *;
 
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: rem(30);
+
+  @include breakpoints(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include breakpoints(large) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .card {
+  position: relative;
+  overflow: hidden;
   background-color: var(--dark-card);
   color: var(--dark-text1);
-  width: rem(255);
   text-align: center;
   padding: rem(25);
   border-radius: rem(5);
+  flex: 1;
   &__platform {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: rem(20);
+    margin-top: rem(5);
     margin-bottom: rem(28);
   }
   &--facebook {
@@ -23,7 +40,22 @@
   }
   &--instagram {
     @extend .card;
-    border-top: rem(5) solid var(--facebook);
+    padding-top: rem(30);
+    &::before {
+      content: '';
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: rem(5);
+      background: linear-gradient(
+        225deg,
+        var(--instagram-end),
+        var(--instagram-middle) 50.91%,
+        var(--instagram-start) 100%
+      )
+    }
   }
   &--youtube {
     @extend .card;
