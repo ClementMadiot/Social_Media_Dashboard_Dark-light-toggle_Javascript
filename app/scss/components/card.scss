@@ -22,14 +22,6 @@
   padding: rem(25);
   border-radius: rem(5);
   flex: 1;
-  &__platform {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: rem(20);
-    margin-top: rem(5);
-    margin-bottom: rem(28);
-  }
   &--facebook {
     @extend .card;
     border-top: rem(5) solid var(--facebook);
@@ -61,6 +53,14 @@
     @extend .card;
     border-top: rem(5) solid var(--youtube);
   }
+  &__platform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: rem(20);
+    margin-top: rem(5);
+    margin-bottom: rem(28);
+  }
   &__icon {
     margin-right: rem(8);
   }
@@ -68,6 +68,7 @@
     font-size: rem(12);
     font-weight: bold;
   }
+  
   &__followers {
     margin-bottom: rem(25);
   }
@@ -83,6 +84,7 @@
     }
     &--small {
       @extend .card__count;
+      font-size: rem(32);
     }
   }
   &__label {
@@ -109,7 +111,8 @@
     img {
       margin-right: rem(4);
     }
-    &__number {
-    }
+
+    // &__number {
+    // }
   }
 }
