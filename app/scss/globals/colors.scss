@@ -11,19 +11,16 @@
   --toggle-bg-end: hsl(146, 68%, 55%);
   --toggle-bg-light: hsl(230, 22%, 74%);
   --toggle-light: hsl(230, 19%, 60%);
-  // --dark-top-bg: hsl(232, 19%, 15%);
   --dark-card-hover: hsl(228, 25%, 27%);
   --dark-bg: hsl(230, 17%, 14%);
   --dark-card: hsl(228, 28%, 20%);
   --dark-text1: hsl(228, 34%, 66%);
-  // --dark-text2: hsl(0, 0%, 100%);
   --light-bg: hsl(0, 0%, 100%);
-  // --light-top-bg: hsl(225, 100%, 98%);
   --light-card: hsl(227, 47%, 96%);
   --light-card-hover: hsl(228, 33%, 91%);
   --light-text1: hsl(228, 12%, 44%);
-  // --light-text2: hsl(230, 17%, 14%);
-  // Light Mode
+
+  // Light Mode Windows
   --background: var(--light-bg);
   --text-color: var(--dark-bg);
   --text-color2: var(--light-text1);
@@ -33,7 +30,7 @@
   --toggle-bg: var(--toggle-bg-light);
 }
 
-// Dark Mode
+// Dark Mode Windows
 @media (prefers-color-scheme: dark) {
   :root {
     --background: var(--dark-bg);
@@ -49,6 +46,7 @@
     );
   }
 }
+// Toggle Button 
 .dark {
   --background: var(--dark-bg);
   --text-color: var(--light-bg);
