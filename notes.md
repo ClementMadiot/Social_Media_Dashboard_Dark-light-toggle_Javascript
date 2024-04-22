@@ -14,3 +14,8 @@ Prefers color media queries
 Accessibility
 - Use correct hedding tags
 - Screenreader - only text for card titles/userame
+
+//TODO 
+  --dark-text2: hsl(0, 0%, 100%);
+  --light-bg: hsl(0, 0%, 100%);
+  Same color make only one

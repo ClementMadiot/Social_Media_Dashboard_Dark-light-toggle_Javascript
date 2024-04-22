@@ -9,13 +9,13 @@
   &__tittle {
     width: 100%;
 
-    @include breakpoints(medium){
+    @include breakpoints(medium) {
       width: auto;
     }
   }
-  &_subtitle{
+  &_subtitle {
     font-size: rem(14);
     font-weight: 700;
-    color: var(--dark-test1);
+    color: var(--text-color2);
   }
 }
