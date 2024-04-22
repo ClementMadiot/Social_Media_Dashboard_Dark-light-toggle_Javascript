@@ -1,1 +1,1 @@
-"use strict";console.log("yo");//# sourceMappingURL=script.js.map
+"use strict";for(var radioBtn=document.querySelectorAll(".toggle_wrapper input"),i=0;i<radioBtn.length;i++)radioBtn[i].addEventListener("click",(function(e){console.log("click"),document.getElementById("dark").checked?document.querySelector("body").classList="dark":document.querySelector("body").classList="light"}));//# sourceMappingURL=script.js.map
