@@ -16,16 +16,16 @@ If you change in your parameter windows (Personalisation / Color) the theme Dark
 
 ### Format desktop
 
-[!image info](images/Macbook%20Pro-1715067535510.jpg)
-[!image info](images/Macbook%20Pro-1715067558048.jpg)
+[!Mode Light](images/Macbook%20Pro-1715067535510.jpg)
+[!Mode Dark](C:\Users\cleme\Desktop\Social Media\Social_Media_Dashboard_Dark-light-toggle_Javascript\images\Macbook Pro-1715067558048.jpg)
 
 ### Format tablet
 
-[!image info](images/Galaxy%20Tab%20S4-1715067529951.jpg)
+[!Mode Light](images/Galaxy%20Tab%20S4-1715067529951.jpg)
 
 ### Format mobile
 
-[!image info](images/iPhone%2012%20Pro-1715067533784.jpeg)
+[!Mode Light](images/iPhone%2012%20Pro-1715067533784.jpeg)
 
 ### Installation
 
