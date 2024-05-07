@@ -17,7 +17,7 @@ If you change in your parameter windows (Personalisation / Color) the theme Dark
 ### Format desktop
 
 [!Mode Light](images/Macbook%20Pro-1715067535510.jpg)
-[!Mode Dark](images/Macbook%Pro-1715067558048.jpg)
+[!Mode Dark](images/Macbook%20Pro-1715067558048.jpg)
 
 ### Format tablet
 
@@ -43,3 +43,5 @@ All the installation I made
 - dart-sass
 - cssnano
 - browser-sync
+
+### Verification check by W3C 👍
