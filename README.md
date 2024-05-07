@@ -17,7 +17,7 @@ If you change in your parameter windows (Personalisation / Color) the theme Dark
 ### Format desktop
 
 [!Mode Light](images/Macbook%20Pro-1715067535510.jpg)
-[!Mode Dark](C:\Users\cleme\Desktop\Social Media\Social_Media_Dashboard_Dark-light-toggle_Javascript\images\Macbook Pro-1715067558048.jpg)
+[!Mode Dark](images/Macbook%Pro-1715067558048.jpg)
 
 ### Format tablet
 
